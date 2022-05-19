@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    font-size: 1.5em;
+    font-family: Arial;
+    text-align: center;
+}
+
+.position{
+    height: 100vh;
+    width: 100%;
+}
+
+.position nav{
+    /* border: 1px solid black; */
+    height: 100vh;
+    background-color: salmon;
+    width: 20%;
+}
+.position header{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 80%;
+    height: 80px;
+    background-color: lightgray;
+}
+
+.position main{
+    box-sizing: border-box;
+    padding-top: 200px;
+    width: 100%;
+    height: 100vh;
+    background-color: lightblue;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.position footer{
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+    height: 80px;
+    background-color: lightgreen;
+}
+
+.position aside{
+    width: 20%;
+    height: 100vh;
+    background-color: lightyellow;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.kotak{
+    width: 80px;
+    height: 80px;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+}
+
+.satu {
+    background-color: red;
+    position: relative;
+    top: 30px;
+}
+
+.dua {
+    background-color: blue;
+    position: relative;
+    right: 30px;
+}
+
+.tiga {
+    background-color: green;
+    position: relative;
+    left: 30px;
+    bottom: 30px;
+}
+
